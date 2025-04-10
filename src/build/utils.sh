@@ -299,32 +299,54 @@ patch() {
 #################################################
 
 split_editor() {
-    if [[ -z "$3" || -z "$4" ]]; then
-        green_log "[+] Merge splits apk to standalone apk"
-        java -jar $APKEditor m -i "./download/$1" -o "./download/$1.apk" > /dev/null 2>&1
-        return 0
-    fi
-    IFS=' ' read -r -a include_files <<< "$4"
-    mkdir -p "./download/$2"
-    for file in "./download/$1"/*.apk; do
-        filename=$(basename "$file")
-        basename_no_ext="${filename%.apk}"
-        if [[ "$filename" == "com.spotify.music.apk" ]]; then
-            continue
+    # Check if input is .xapk and extract if needed
+    if [[ "$1" == *.xapk ]]; then
+        local xapk_name="${1%.xapk}"
+        if [[ ! -d "./download/$xapk_name" ]]; then
+            green_log "[+] Extracting $1"
+            unzip -q "./download/$1" -d "./download/$xapk_name"
         fi
-        if [[ "$3" == "include" ]]; then
+        set -- "$xapk_name" "${@:2}"  # Replace xapk filename with extracted dir
+    fi
+
+    # Handle simple merge case
+    if [[ -z "$3" || -z "$4" ]]; then
+        green_log "[+] Merging all APKs to standalone apk"
+        java -jar "$APKEditor" m -i "./download/$1" -o "./download/$1.apk" >/dev/null 2>&1
+        return $?
+    fi
+
+    # Handle include/exclude case
+    local source_dir="./download/$1"
+    local target_dir="./download/$2"
+    local mode="$3"
+    IFS=' ' read -r -a include_files <<< "$4"
+    
+    mkdir -p "$target_dir"
+    
+    # Always copy the main APK
+    cp -f "$source_dir/"*.apk "$target_dir/" 2>/dev/null  # This will get the main APK
+    
+    # Process split APKs based on mode
+    for file in "$source_dir"/config.*.apk; do
+        [ -e "$file" ] || continue
+        local filename=$(basename "$file")
+        local basename_no_ext="${filename%.apk}"
+        
+        if [[ "$mode" == "include" ]]; then
             if [[ " ${include_files[*]} " =~ " ${basename_no_ext} " ]]; then
-                cp -f "$file" "./download/$2/" > /dev/null 2>&1
+                cp -f "$file" "$target_dir/" >/dev/null 2>&1
             fi
-        elif [[ "$3" == "exclude" ]]; then
+        elif [[ "$mode" == "exclude" ]]; then
             if [[ ! " ${include_files[*]} " =~ " ${basename_no_ext} " ]]; then
-                cp -f "$file" "./download/$2/" > /dev/null 2>&1
+                cp -f "$file" "$target_dir/" >/dev/null 2>&1
             fi
         fi
     done
 
-    green_log "[+] Merge splits apk to standalone apk"
-    java -jar $APKEditor m -i ./download/$2 -o ./download/$2.apk > /dev/null 2>&1
+    green_log "[+] Merging selected splits to standalone apk"
+    java -jar "$APKEditor" m -i "$target_dir" -o "$target_dir.apk" >/dev/null 2>&1
+    return $?
 }
 
 #################################################
