@@ -31,12 +31,18 @@ revanced_dl(){
 }
 2() {
 	revanced_dl
-	# Patch Messenger:
-	# Arm64-v8a
+    	# Patch Spotify:
+    	get_patches_key "messenger"
+    	# Download Spotify XAPK from APKPure
+	url="https://d.apkpure.com/b/XAPK/com.spotify.music?version=latest"
+    	req "$url" "spotify.xapk"
+    	# Extract XAPK
+	unzip "./download/spotify.xapk" -d "./download/spotify" > /dev/null 2>&1
+	# Patch only arm64-v8a version
 	get_patches_key "messenger"
-	lock_version="1"
-	get_apk "com.facebook.orca" "messenger-arm64-v8a" "messenger" "facebook-2/messenger/facebook-messenger" "arm64-v8a" "nodpi"
+	split_editor "spotify" "messenger-arm64-v8a" "include" "config.arm64_v8a"
 	patch "messenger-arm64-v8a" "revanced"
+	revanced_dl
 	# Patch Facebook:
 	# Arm64-v8a
 	get_patches_key "facebook"
