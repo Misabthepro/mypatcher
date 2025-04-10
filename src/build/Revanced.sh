@@ -44,14 +44,18 @@ revanced_dl(){
 	get_patches_key "Duolingo"
 	version="6.23.2" #https://github.com/ReVanced/revanced-patches/issues/4728#issuecomment-2779066581
 	get_apk "com.duolingo" "duolingo" "duolingo" "duolingo/duolingo-duolingo/duolingo-language-lessons" "Bundle"
-	patch "duolingo" "revanced"
+	split_editor "duolingo" "duolingo-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
+	patch "duolingo-arm64-v8a" "revanced"
+}
+5() {
+	revanced_dl
 	# Patch Google News Arm64-v8a
 	get_patches_key "GoogleNews"
 	get_apk "com.google.android.apps.magazines" "googlenews" "google-news" "google-inc/google-news/google-news" "Bundle_extract"
 	split_editor "googlenews" "googlenews-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
 	patch "googlenews-arm64-v8a" "revanced"
 }
-#5() {
+#6() {
 	#revanced_dl
 	## Patch Instagram:
 	## Arm64-v8a
@@ -72,5 +76,8 @@ case "$1" in
         ;;
     4)
         4
+        ;;
+	5)
+        5
         ;;
 esac
