@@ -313,7 +313,7 @@ split_editor() {
 
     if [[ -z "$3" || -z "$4" ]]; then
         green_log "[+] Merge splits apk to standalone apk"
-        java -jar $APKEditor m -i "$source_dir" -o "./download/$1.apk" > /dev/null 2>&1
+        java -jar $APKEditor m -i "$source_dir" -o "./download/$2.apk" > /dev/null 2>&1
         return 0
     fi
 
