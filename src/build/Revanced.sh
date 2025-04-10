@@ -181,20 +181,6 @@ revanced_dl(){
 	split_editor "photomath" "photomath"
 	patch "photomath" "revanced"
 }
-12() {
-    revanced_dl
-    # Patch Spotify:
-    get_patches_key "spotify"
-    # Download Spotify XAPK from APKPure
-    url="https://d.apkpure.com/b/XAPK/com.spotify.music?version=latest"
-    req "$url" "spotify.xapk"
-    # Extract XAPK
-    unzip "./download/spotify.xapk" -d "./download/spotify" > /dev/null 2>&1
-    # Patch only arm64-v8a version
-    get_patches_key "spotify"
-    split_editor "spotify" "spotify-arm64-v8a" "include" "config.arm64_v8a"
-    patch "spotify-arm64-v8a" "revanced"
-}
 case "$1" in
     1)
         1
@@ -228,8 +214,5 @@ case "$1" in
         ;;
     11)
         11
-        ;;
-    12)
-        12
         ;;
 esac
