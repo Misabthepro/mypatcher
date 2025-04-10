@@ -13,12 +13,6 @@ Simply, all you need to do is choose the app you want to use from the options be
 <h1 align="center">
 Download
 </h1>
-
-> [!IMPORTANT] 
-> Beta versions mean using dev patches, not using beta apk files. Beta version have the same package name as Stable version, so installing them will overwrite Stable version.
->
-> License owned by creator. If you like any modded app, please support the original author.
-> 
 ---
 
 ## [MicroG ReVanced:](https://github.com/ReVanced/GmsCore)
