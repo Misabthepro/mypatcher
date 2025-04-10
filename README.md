@@ -30,7 +30,7 @@ Download
 | -----------------------------------------------------------------------------  |
 | [Arm64-v8a](../../releases/download/all/youtube-arm64-v8a-revanced.apk)        |
 
-Ads Removed and more features
+Ads Removed, Background playback, Sponsor skip, Dislike Button and more!
 
 ---
 
