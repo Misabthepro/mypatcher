@@ -44,8 +44,7 @@ revanced_dl(){
 	get_patches_key "Duolingo"
 	version="6.23.2" #https://github.com/ReVanced/revanced-patches/issues/4728#issuecomment-2779066581
 	get_apk "com.duolingo" "duolingo" "duolingo" "duolingo/duolingo-duolingo/duolingo-language-lessons" "Bundle"
-	split_editor "duolingo" "duolingo-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
-	patch "duolingo-arm64-v8a" "revanced"
+	patch "duolingo" "revanced"
 }
 5() {
 	revanced_dl
