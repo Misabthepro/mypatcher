@@ -31,73 +31,9 @@ Download
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
-| [Stable version](https://github.com/ReVanced/revanced-patches/releases/latest) | 
+| Stable version| 
 | -----------------------------------------------------------------------------  |
 | [Arm64-v8a](../../releases/download/all/youtube-arm64-v8a-revanced.apk)        |
-
----
-
-[![YouTube Music](https://img.shields.io/badge/YouTube_Music-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white)](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
-
-### [Revanced:](https://github.com/revanced/revanced-patches)
-
-| Stable version                                                                    | Beta version                                                                           |
-| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| [Arm64-v8a](../../releases/download/all/youtube-music-arm64-v8a-revanced.apk)     | [Arm64-v8a](../../releases/download/all/youtube-music-beta-arm64-v8a-revanced.apk)     |
-| [Armeabi-v7a](../../releases/download/all/youtube-music-armeabi-v7a-revanced.apk) | [Armeabi-v7a](../../releases/download/all/youtube-music-beta-armeabi-v7a-revanced.apk) |
-
-### [Revanced Extended:](https://github.com/inotia00/revanced-patches/)
-
-| [Stable version](https://github.com/inotia00/revanced-patches/releases/latest)             | [Beta version](https://github.com/inotia00/revanced-patches/releases)                           |
-| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
-| [Arm64-v8a](../../releases/download/all/youtube-music-arm64-v8a-revanced-extended.apk)     | [Arm64-v8a](../../releases/download/all/youtube-music-beta-arm64-v8a-revanced-extended.apk)     |
-| [Armeabi-v7a](../../releases/download/all/youtube-music-armeabi-v7a-revanced-extended.apk) | [Armeabi-v7a](../../releases/download/all/youtube-music-beta-armeabi-v7a-revanced-extended.apk) |
-
-### [Revanced Extended forked by anddea:](https://github.com/anddea/revanced-patches)
-
-| Stable version                                                                         | Beta version                                                                         |
-| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| [Arm64-v8a](../../releases/download/all/youtube-music-stable-arm64-v8a-anddea.apk)     | [Arm64-v8a](../../releases/download/all/youtube-music-beta-arm64-v8a-anddea.apk)     |
-| [Armeabi-v7a](../../releases/download/all/youtube-music-stable-armeabi-v7a-anddea.apk) | [Armeabi-v7a](../../releases/download/all/youtube-music-beta-armeabi-v7a-anddea.apk) |
-
----
-
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://play.google.com/store/apps/details?id=com.facebook.katana&hl)
-
-**You have to remove the Messenger app before you install the Facebook ReVanced**
-
-### [Revanced:](https://github.com/revanced/revanced-patches)
-
-| Stable version                                                                        | Beta version                                                                                |
-| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | 
-|[Arm64-v8a & Android 11+](../../releases/download/all/facebook-arm64-v8a-revanced.apk) | [Arm64-v8a & Android 11+](../../releases/download/all/facebook-arm64-v8a-beta-revanced.apk) |
-
----
-
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://play.google.com/store/apps/details?id=com.twitter.android)
-
-### [Piko:](https://github.com/crimera/piko)
-
-👉 [Offical author download link](https://github.com/crimera/twitter-apk/releases)
-
-| [Stable version](https://github.com/crimera/piko/releases/latest)          | [Beta version](https://github.com/crimera/piko/releases/)                |
-| -------------------------------------------------------------------------- | -------------------------------------------------------------------------| 
-| [All Architectures](../../releases/download/all/twitter-stable-piko.apk)   | [All Architectures](../../releases/download/all/twitter-beta-piko.apk)   |
-| [Arm64-v8a](../../releases/download/all/twitter-arm64-v8a-stable-piko.apk) | [Arm64-v8a](../../releases/download/all/twitter-arm64-v8a-beta-piko.apk) |
-
----
-
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://play.google.com/store/apps/details?id=com.instagram.android)
-
-### [Revanced:](https://github.com/revanced/revanced-patches)
-
-| Stable version                                                            | Beta version                                                                   |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | 
-| [Arm64-v8a](../../releases/download/all/instagram-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/instagram-arm64-v8a-beta-revanced.apk) |
-
-### [Revanced Experiments:](https://github.com/Aunali321/ReVancedExperiments)
-
-[Arm64-v8a](../../releases/download/all/instagram-arm64-v8a-revanced-experiments.apk)
 
 ---
 
@@ -105,20 +41,9 @@ Download
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
-| Stable version                                                                | Beta version                                                                       |
-| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | 
-| [Arm64-v8a](../../releases/download/all/gg-photos-arm64-v8a-revanced.apk)     | [Arm64-v8a](../../releases/download/all/gg-photos-arm64-v8a-beta-revanced.apk)     |
-| [armeabi-v7a](../../releases/download/all/gg-photos-armeabi-v7a-revanced.apk) | [armeabi-v7a](../../releases/download/all/gg-photos-armeabi-v7a-beta-revanced.apk) |
-
----
-
-[![Messenger](https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white)](https://play.google.com/store/apps/details?id=com.facebook.orca)
-
-### [Revanced:](https://github.com/revanced/revanced-patches)
-
-| Stable version                                                            | Beta version                                                                   |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | 
-| [Arm64-v8a](../../releases/download/all/messenger-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/messenger-arm64-v8a-beta-revanced.apk) |
+| Stable version                                                                |
+| ----------------------------------------------------------------------------- |
+| [Arm64-v8a](../../releases/download/all/gg-photos-arm64-v8a-revanced.apk)     |
 
 ---
 
