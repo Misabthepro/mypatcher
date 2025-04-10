@@ -22,6 +22,8 @@ Download
 
 [![Release](https://img.shields.io/github/v/release/ReVanced/GmsCore?label=All-arch&style=for-the-badge)](https://github.com/ReVanced/GmsCore/releases) 
 
+If unable to insatll MicroG try disabling Google Play, installing MicroG and then re-enabling Google Play.
+
 ---
 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://play.google.com/store/apps/details?id=com.google.android.youtube)
