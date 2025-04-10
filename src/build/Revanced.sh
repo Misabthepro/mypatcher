@@ -22,10 +22,11 @@ revanced_dl(){
     	# Extract XAPK
 	unzip "./download/spotify.xapk" -d "./download/spotify" > /dev/null 2>&1
 	# Patch only arm64-v8a version
+ 	get_patches_key "spotify"
 	split_editor "spotify" "spotify-arm64-v8a"
 	patch "spotify-arm64-v8a" "revanced"
- 
- 	get_patches_key "youtube-revanced"
+ 	# Patch with amoled version
+ 	get_patches_key "spotify-amoled"
   	patch "spotify-arm64-v8a" "amoled-revanced"
 	revanced_dl
 }
