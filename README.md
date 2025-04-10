@@ -22,13 +22,15 @@ Download
 
 ---
 
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://play.google.com/store/apps/details?id=com.google.android.youtube)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://play.google.com/store/apps/details?id=com.google.android.youtube)A
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
-| Stable version| 
+| Stable version                                                                 | 
 | -----------------------------------------------------------------------------  |
 | [Arm64-v8a](../../releases/download/all/youtube-arm64-v8a-revanced.apk)        |
+
+Ads Removed and more features
 
 ---
 
@@ -37,9 +39,11 @@ Download
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
-| Stable version| 
-| -----------------------------------------------------------------------------  |
-| [Arm64-v8a](../../releases/download/all/spotify-arm64-v8a-revanced.apk)        |
+| Stable version                                                                 | Amoled Theme version                                                                       |
+| -----------------------------------------------------------------------------  | ----------------------------------------------------------------------------------------   |
+| [Arm64-v8a](../../releases/download/all/spotify-arm64-v8a-revanced.apk)        | [Arm64-v8a-amoled](../../releases/download/all/spotify-arm64-v8a-amoled-revanced.apk)      |
+
+Ads Removed and premium unlocked
 
 ---
 
@@ -51,15 +55,19 @@ Download
 | ----------------------------------------------------------------------------- |
 | [Arm64-v8a](../../releases/download/all/gphotos-arm64-v8a-revanced.apk)     |
 
+Google unlimited photos backup unlocked
+
 ---
 
 [![Duolingo](https://img.shields.io/badge/Duolingo-%234DC730.svg?style=for-the-badge&logo=Duolingo&logoColor=white)](https://play.google.com/store/apps/details?id=com.duolingo)
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
-| Stable version                                                           | Beta version                                                                  |
-| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------   |
-| [All Architectures](../../releases/download/all/duolingo-revanced.apk)   | [All Architectures](../../releases/download/all/duolingo-beta-revanced.apk)   |
+| Stable version                                                           |
+| ------------------------------------------------------------------------ |
+| [All Architectures](../../releases/download/all/duolingo-revanced.apk)   |
+
+Ads removed
 
 ---
 
@@ -67,9 +75,9 @@ Download
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
-| Stable version                                                             | Beta version                                                                    |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| [Arm64-v8a](../../releases/download/all/googlenews-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/googlenews-beta-arm64-v8a-revanced.apk) |
+| Stable version                                                             |
+| -------------------------------------------------------------------------- |
+| [Arm64-v8a](../../releases/download/all/googlenews-arm64-v8a-revanced.apk) |
 
 ---
 
