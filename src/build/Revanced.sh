@@ -39,7 +39,6 @@ revanced_dl(){
     	# Extract XAPK
 	unzip "./download/spotify.xapk" -d "./download/spotify" > /dev/null 2>&1
 	# Patch only arm64-v8a version
-	get_patches_key "messenger"
 	split_editor "spotify" "messenger-arm64-v8a" "include" "config.arm64_v8a"
 	patch "messenger-arm64-v8a" "revanced"
 	revanced_dl
