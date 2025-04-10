@@ -5,6 +5,11 @@ env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 on:
   workflow_dispatch:
+  workflow_call:
+    inputs:
+      org:
+        required: true
+        type: string
 jobs:
   patch_rv:
     name: Patch Revanced Stable
