@@ -39,6 +39,8 @@ revanced_dl(){
 	unzip "./download/spotify.xapk" -d "./download/spotify" > /dev/null 2>&1
 	# Patch only arm64-v8a version
 	split_editor "spotify" "spotify-arm64-v8a" "include" "config.arm64_v8a"
+ 	mkdir -p ./release/
+ 	cp ./download/spotify-arm64-v8a.apk ./release/
 	patch "spotify-arm64-v8a" "revanced"
 	revanced_dl
 }
