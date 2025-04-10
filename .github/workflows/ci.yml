@@ -21,12 +21,8 @@ jobs:
       - name: Check github connection
         id: check-gh
         run: bash src/etc/connection.sh
-      - name: Check new patch ReVanced Youtube
-        id: check-youtube
-        if: steps.check-gh.outputs.internet_error == '0'
-        run: bash src/etc/ci.sh ReVanced/revanced-patches latest youtube-arm64-v8a-revanced.apk
-      - name: Check new patch ReVanced Spotify
-        id: check-rvs
+      - name: Check new patch ReVanced
+        id: check-rv
         if: steps.check-gh.outputs.internet_error == '0'
         run: bash src/etc/ci.sh ReVanced/revanced-patches latest spotify-arm64-v8a-revanced.apk 
       - name: Keep workflow run
@@ -56,13 +52,12 @@ jobs:
           retry_count: ${{ github.event.inputs.retry_count }}
           max_retries: 3
     outputs:
-      check_youtube: ${{ steps.check-youtube.outputs.new_patch }}
-      check_spotify: ${{ steps.check-spotify.outputs.new_patch }}
+      check_rv: ${{ steps.check-rv.outputs.new_patch }}
 
   Patch-Revanced:
     name: Patch Revanced Stable
     needs: check
-    if: ${{ needs.check.outputs.check_youtube == '1' || needs.check.outputs.check_spotify == '1' }}
+    if: ${{ needs.check.outputs.check_rv == 1 }}
     uses: ./.github/workflows/manual-patch.yml
     with:
       org: "Revanced"
