@@ -309,8 +309,7 @@ split_editor() {
     for file in "./download/$1"/*.apk; do
         filename=$(basename "$file")
         basename_no_ext="${filename%.apk}"
-        if [[ "$filename" == "base.apk" ]]; then
-            cp -f "$file" "./download/$2/" > /dev/null 2>&1
+        if [[ "$filename" == "com.spotify.music.apk" ]]; then
             continue
         fi
         if [[ "$3" == "include" ]]; then
