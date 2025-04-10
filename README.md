@@ -37,90 +37,24 @@ Download
 
 ---
 
+
+[![Spotify](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)](https://play.google.com/store/apps/details?id=com.spotify.music)
+
+### [Revanced:](https://github.com/revanced/revanced-patches)
+
+| Stable version| 
+| -----------------------------------------------------------------------------  |
+| [Arm64-v8a](../../releases/download/all/spotify-arm64-v8a-revanced.apk)        |
+
+---
+
 ### [Google Photos:](https://play.google.com/store/apps/details?id=com.google.android.apps.photos)
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
 | Stable version                                                                |
 | ----------------------------------------------------------------------------- |
-| [Arm64-v8a](../../releases/download/all/gg-photos-arm64-v8a-revanced.apk)     |
-
----
-
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://play.google.com/store/apps/details?id=org.telegram.messenger)
-
-### [Revanced Experiments:](https://github.com/Aunali321/ReVancedExperiments)
-
-CH play version:
-
-[Arm64-v8a](../../releases/download/all/telegram-revanced-experiments.apk)
-
-Web version:
-
-[All Architectures](../../releases/download/all/telegram-web-version-revanced-experiments.apk) 
-
----
-
-[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=TikTok&logoColor=white)](https://play.google.com/store/apps/details?id=com.ss.android.ugc.trill)
-
-### [Revanced:](https://github.com/revanced/revanced-patches)
-
-| Stable version                                                         | Beta version                                                                |
-| ---------------------------------------------------------------------- | -------------------------------------------------------------------------   |
-| [All Architectures](../../releases/download/all/tiktok-revanced.apk)   | [All Architectures](../../releases/download/all/tiktok-beta-revanced.apk)   |
-
----
-
-[![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white)](https://play.google.com/store/apps/details?id=tv.twitch.android.app)
-
-### [Revanced:](https://github.com/revanced/revanced-patches)
-
-| Stable version                                                         | Beta version                                                                |
-| ---------------------------------------------------------------------- | --------------------------------------------------------------------------- | 
-| [All Architectures](../../releases/download/all/twitch-revanced.apk)   | [All Architectures](../../releases/download/all/twitch-beta-revanced.apk)   |
-
----
-
-[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
-
-### [Revanced Extended:](https://github.com/inotia00/revanced-patches/)
-
-| Stable version                                                                  | Beta version                                                                         |
-| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | 
-| [All Architectures](../../releases/download/all/reddit-revanced-extended.apk)   | [All Architectures](../../releases/download/all/reddit-beta-revanced-extended.apk)   |
-| [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-revanced-extended.apk) | [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-beta-revanced-extended.apk) |
-
----
-
-[![Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white)](https://play.google.com/store/apps/details?id=com.adobe.lrmobile)
-
-### [Revanced:](https://github.com/revanced/revanced-patches)
-
-| Stable version                                                          | Beta version                                                                 |
-| ----------------------------------------------------------------------- | ---------------------------------------------------------------------------- | 
-| [Arm64-v8a](../../releases/download/all/lightroom-revanced.apk)         | [Arm64-v8a](../../releases/download/all/lightroom-beta-revanced.apk)         |
-
----
-
-[![Tumblr](https://img.shields.io/badge/Tumblr-%2336465D.svg?style=for-the-badge&logo=Tumblr&logoColor=white)](https://play.google.com/store/apps/details?id=com.tumblr)
-
-### [Revanced:](https://github.com/revanced/revanced-patches)
-
-| Stable version                                                         | Beta version                                                                |
-| ---------------------------------------------------------------------- | --------------------------------------------------------------------------- | 
-| [All Architectures](../../releases/download/all/tumblr-revanced.apk)   | [All Architectures](../../releases/download/all/tumblr-beta-revanced.apk)   |
-| [Arm64-v8a](../../releases/download/all/tumblr-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/tumblr-arm64-v8a-beta-revanced.apk) |
-
----
-
-[![SoundCloud](https://img.shields.io/badge/soundcloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white)](https://play.google.com/store/apps/details?id=com.soundcloud.android)
-
-### [Revanced:](https://github.com/revanced/revanced-patches)
-
-| Stable version                                                             | Beta version                                                                    |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | 
-| [All Architectures](../../releases/download/all/soundcloud-revanced.apk)   | [All Architectures](../../releases/download/all/soundcloud-beta-revanced.apk)   |
-| [Arm64-v8a](../../releases/download/all/soundcloud-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/soundcloud-arm64-v8a-beta-revanced.apk) |
+| [Arm64-v8a](../../releases/download/all/gphotos-arm64-v8a-revanced.apk)     |
 
 ---
 
@@ -141,70 +75,6 @@ Web version:
 | Stable version                                                             | Beta version                                                                    |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | [Arm64-v8a](../../releases/download/all/googlenews-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/googlenews-beta-arm64-v8a-revanced.apk) |
-
----
-
-### [Photomath:](https://play.google.com/store/apps/details?id=com.microblink.photomath)
-
-### [Revanced:](https://github.com/revanced/revanced-patches)
-
-| Stable version                                                             | Beta version                                                                    |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| [All Architectures](../../releases/download/all/photomath-revanced.apk)    | [All Architectures](../../releases/download/all/photomath-beta-revanced.apk)    |
-
----
-
-### [RAR:](https://play.google.com/store/apps/details?id=com.rarlab.rar)
-
-### [Revanced:](https://github.com/revanced/revanced-patches)
-
-| Stable version                                            | Beta version                                                   |
-| --------------------------------------------------------- | -------------------------------------------------------------- |
-| [Arm64-v8a](../../releases/download/all/rar-revanced.apk) | [Arm64-v8a](../../releases/download/all/rar-beta-revanced.apk) |
-
----
-
-### [Pixiv:](https://play.google.com/store/apps/details?id=jp.pxv.android)
-
-### [Revanced:](https://github.com/revanced/revanced-patches)
-
-| Stable version                                                      | Beta version                                                             |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------ | 
-| [All Architectures](../../releases/download/all/pixiv-revanced.apk) | [All Architectures](../../releases/download/all/pixiv-beta-revanced.apk) |
-
----
-
-### [Bilbili: (Chinese only)](https://play.google.com/store/apps/details?id=com.bilibili.app.in)
-
-### [BiliRoamingM:](https://github.com/sakarie9/BiliRoamingM/)
-
-[All Architectures](../../releases/download/all/bilibili-BiliRoamingM.apk )
-
-[Arm64-v8a](../../releases/download/all/bilibili-arm64-v8a-BiliRoamingM.apk )
-
----
-
-### [Nova Launcher:](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher)
-
-### [Dropped Patches by indrastorms:](https://github.com/indrastorms/Dropped-Patches)
-
-[All Architectures](../../releases/download/all/nova-launcher-indrastorms.apk)
-
----
-
-### [Tasker:](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
-
-### [Dropped Patches by indrastorms:](https://github.com/indrastorms/Dropped-Patches)
-
-[All Architectures](../../releases/download/all/tasker-indrastorms.apk)
-
----
-
-### [FX File Explorer:](https://play.google.com/store/apps/details?id=nextapp.fx)
-
-### [Dropped Patches by indrastorms:](https://github.com/indrastorms/Dropped-Patches)
-
-[All Architectures](../../releases/download/all/fx-file-explorer-indrastorms.apk)
 
 ---
 
