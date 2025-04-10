@@ -13,7 +13,6 @@ Simply, all you need to do is choose the app you want to use from the options be
 <h1 align="center">
 Download
 </h1>
-
 ## [MicroG ReVanced:](https://github.com/ReVanced/GmsCore)
 
 [![Release](https://img.shields.io/github/v/release/ReVanced/GmsCore?label=All-arch&style=for-the-badge)](https://github.com/ReVanced/GmsCore/releases) 
