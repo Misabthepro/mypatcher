@@ -14,7 +14,7 @@ Simply, all you need to do is choose the app you want to use from the options be
 Download
 </h1>
 
----
+
 
 ## [MicroG ReVanced:](https://github.com/ReVanced/GmsCore)
 
