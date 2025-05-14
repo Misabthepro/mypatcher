@@ -54,6 +54,19 @@ revanced_dl(){
 	split_editor "googlenews" "googlenews-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
 	patch "googlenews-arm64-v8a" "revanced"
 }
+6() {
+	revanced_dl
+    	# Patch Spotify:
+    	# Download Spotify XAPK from APKPure
+	url="https://d.apkpure.com/b/XAPK/com.backdrops.wallpapers?version=latest"
+    	req "$url" "backdrops.xapk"
+    	# Extract XAPK
+	unzip "./download/backdrops.xapk" -d "./download/backdrops" > /dev/null 2>&1
+	# Patch only arm64-v8a version
+ 	get_patches_key "backdrops"
+	split_editor "backdrops" "backdrops-arm64-v8a"
+	patch "backdrops-arm64-v8a" "revanced"
+}
 #6() {
 	#revanced_dl
 	## Patch Instagram:
