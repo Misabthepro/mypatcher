@@ -18,16 +18,16 @@ revanced_dl(){
     	# Patch Spotify:
     	# Download Spotify XAPK from APKPure
 	url="https://d.apkpure.com/b/XAPK/com.spotify.music?version=latest"
-    	req "$url" "spotify.xapk"
+    	req "$url" "spotify.apk"
     	# Extract XAPK
-	unzip "./download/spotify.xapk" -d "./download/spotify" > /dev/null 2>&1
+	#unzip "./download/spotify.xapk" -d "./download/spotify" > /dev/null 2>&1
 	# Patch only arm64-v8a version
  	get_patches_key "spotify"
-	split_editor "spotify" "spotify-arm64-v8a"
-	patch "spotify-arm64-v8a" "revanced"
+	#split_editor "spotify" "spotify-arm64-v8a"
+	patch "spotify" "revanced"
  	# Patch with amoled version
  	get_patches_key "spotify-amoled"
-  	patch "spotify-arm64-v8a" "amoled-revanced"
+  	patch "spotify" "amoled-revanced"
 	revanced_dl
 }
 3() {
